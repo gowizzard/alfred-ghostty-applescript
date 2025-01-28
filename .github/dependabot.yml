@@ -1,0 +1,13 @@
+# The dependabot.yml file is used to configure the dependabot.
+# The dependabot is a bot that automatically updates the dependencies of the project.
+
+version: 2
+updates:
+    - package-ecosystem: "github-actions"
+      directory: "/"
+      schedule:
+        interval: "daily"
+      reviewers:
+        - "jjideenschmiede/devops"
+      commit-message:
+        prefix: "ci"
