@@ -1,0 +1,19 @@
+name: Bug Report
+description: Create a report to help us improve.
+title: "fix: "
+labels: ["fix"]
+assignees:
+    - gowizzard
+body:
+    - type: markdown
+      attributes:
+        value: |
+            Bitte fülle alle Felder zu deinem Bug Report sorgfältig aus, sodass diese unter besten Voraussetzungen bearbeitet werden können.
+    - type: textarea
+      id: which-error
+      attributes:
+        label: Welcher Fehler ist aufgetreten?
+        description: Beschreibe den Fehler so detailliert wie möglich.
+        placeholder: "Ein Fehler ist aufgetreten, weil..."
+      validations:
+        required: true

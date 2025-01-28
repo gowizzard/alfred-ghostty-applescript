@@ -1,0 +1,19 @@
+name: Feature Request
+description: Create a new feature request to help us improve.
+title: "feat: "
+labels: ["feature"]
+assignees:
+    - gowizzard
+body:
+    - type: markdown
+      attributes:
+        value: |
+            Bitte fülle alle Felder zu dem Feature Request sorgfältig aus, sodass diese unter besten Voraussetzungen bearbeitet werden können.
+    - type: textarea
+      id: which-feature
+      attributes:
+        label: Welches Feature möchtest du vorschlagen?
+        description: Beschreibe das Feature so detailliert wie möglich.
+        placeholder: "Ich möchte das Feature, weil..."
+      validations:
+        required: true
